@@ -8,11 +8,8 @@ https://github.com/Manawyrm/octoi-phonebook/blob/main/phonebook.php
 
 and all other files are exporters for various formats.  
 
-Supported so far:  
-- Auerswald Reverse Lookup
-- Fritz!adr (.csv)
-- Fritz!Box (.xml)
-- Windows XP address book (german and english locale)
+Check the OCTOI wiki for a list of supported exporters (and how to use them):  
+https://osmocom.org/projects/octoi/wiki/Phonebook_exporters
 
 There is also a debug view (to check how the parser read the table) in [debug.php](https://phonebook.tbspace.de/debug.php).
 
