@@ -1,1 +1,5 @@
 .htaccess
+carddav/vendor/
+carddav/composer.lock
+carddav/composer.phar
+
