@@ -13,9 +13,12 @@ if (!function_exists('str_putcsv')) {
     }
 }
 
+$phonebookURL = 'https://osmocom.org/projects/octoi/wiki/Phonebook';
+
 function fetch_phonebook()
 {
-	$html = file_get_contents('https://osmocom.org/projects/octoi/wiki/Phonebook');
+	global $phonebookURL;
+	$html = file_get_contents($phonebookURL);
 	return parse_phonebook($html);
 }
 
