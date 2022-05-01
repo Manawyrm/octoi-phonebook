@@ -30,7 +30,7 @@ if (isset($_REQUEST['phone']) && is_numeric($_REQUEST['phone']))
 	{
 		if ($entry['fullnumber'] == $phone || $entry['fullnumber'] == substr($phone, 1))
 		{
-			echo "success: \"" . htmlspecialchars($entry['service']) . " - " . htmlspecialchars($entry['operator']) . "\"\r\n";
+			echo "success: \"" . htmlspecialchars($entry['operator']) . " - " . htmlspecialchars($entry['service']) . "\"\r\n";
 			return;
 		}
 	}
