@@ -112,7 +112,7 @@ function classify_service_type($entry)
 	$keywords = [
 		"data" => ["dialup", "v.90", "x.75", "v.120", "bbs", "btx", "ppp", "portmaster", "isdn-ta", "terminal adapter"],
 		"fax" => ["g3", "g4", "fax"],
-		"phone" => ["analog phone", "audio", "cet", "cest", "voip"],
+		"phone" => ["analog phone", "isdn phone", "audio", "cet", "cest", "voip", "voice", "dect", "chiptune", "music", "time announcement"],
 		"video" => ["t-view", "video phone", "h.320", "videotelephony"]
 	];
 
